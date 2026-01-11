@@ -3,6 +3,8 @@
 
 A Retrieval-Augmented Generation (RAG) system that allows users to upload documents in multiple formats and ask questions about their content using OpenAI's GPT-4 and vector embeddings.
 
+## Demo Video
+🎥 **Watch the demo:** [Click here to view]([Watch here!!](https://drive.google.com/file/d/1mXI7_hDwiv1j1_YUpcOE4CJzLJyGOj3u/view?usp=sharing))
 
 ## ✨ Features
 
