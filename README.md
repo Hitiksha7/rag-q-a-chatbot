@@ -15,10 +15,13 @@ A Retrieval-Augmented Generation (RAG) system that allows users to upload docume
 - **Fast Retrieval**: Qdrant vector database with cosine similarity search
 
 ## 🏗️ Architecture
+<img width="272" height="340" alt="Image" src="https://github.com/user-attachments/assets/1c9ef1df-30b9-4ff1-b163-c86e32b4f102" />
 
 #### Document processing flow
+<img width="683" height="60" alt="Image" src="https://github.com/user-attachments/assets/91c9a188-9c6b-4679-b1fd-950472f62015" />
 
 #### Question-answering flow
+<img width="688" height="55" alt="Image" src="https://github.com/user-attachments/assets/d7856de6-4363-4117-8c65-243404cf6ad7" />
 
 ### How It Works
 
