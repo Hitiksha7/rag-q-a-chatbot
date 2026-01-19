@@ -48,7 +48,7 @@ qdrant_client = QdrantClient(
 
 COLLECTION_NAME = "Document"
 
-# Create collection if not exists
+
 if not qdrant_client.collection_exists(COLLECTION_NAME):
     qdrant_client.create_collection(
         collection_name=COLLECTION_NAME,
@@ -175,7 +175,6 @@ def save_vector():
         file.save(temp_path)
 
         try:
-            # 🔑 ALWAYS pass file object, not path
             with open(temp_path, "rb") as f:
                 text = extractors[ext](f)
 
