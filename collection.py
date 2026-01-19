@@ -14,13 +14,6 @@ client = QdrantClient(
 
 COLLECTION_NAME = "Document"
 
-# Delete old collection (384-dim)
-try:
-    client.delete_collection(COLLECTION_NAME)
-    print("Old collection deleted")
-except Exception:
-    print("Collection did not exist")
-
 # Create new collection (1536-dim)
 client.create_collection(
     collection_name=COLLECTION_NAME,
